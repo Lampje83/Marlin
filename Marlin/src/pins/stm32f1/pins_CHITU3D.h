@@ -60,7 +60,7 @@
 //
 // Z Probe must be this pin
 //
-//#define Z_MIN_PROBE_PIN                     PC14  // PROBE
+#define Z_MIN_PROBE_PIN    Z_MIN_PIN  // PROBE
 
 
 //
@@ -103,7 +103,7 @@
 // Fans
 //
 #define CONTROLLER_FAN_PIN PD6   // FAN 
-//#define E0_AUTO_FAN_PIN    PG14  // FAN 
+#define E0_AUTO_FAN_PIN    PG14  // FAN 
 #define FAN_PIN            PG13  // FAN 
 
 //
